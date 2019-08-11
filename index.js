@@ -23,8 +23,13 @@ function sayHiToGrandma(string) {
   if (string ===string.toLowerCase()){
     return `I can't hear you!`;
   }
+  if(string===string.toUpperCase()){
+    return `YES INDEED!;
+  }
   
 }
+
+
 
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
