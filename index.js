@@ -12,3 +12,9 @@ function logShout(string){
   console.log(shout(string));
   // it will call function shout(string)
 }
+
+function logWhisper(string){
+  console.log(whisper(string));
+  // or you can write 
+  // console.log(string.toLowerCase());
+}
